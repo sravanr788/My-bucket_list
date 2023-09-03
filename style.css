@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+body {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    background: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-repeat: no-repeat;
+    background-size: 100% 35vh;   
+}
+
+.heading {
+    font-size: 42px;
+    color: #FCFCFF;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.input-field {
+    width: 25%;
+    height: 30px;
+    border-radius: 18px;
+    font-size: 18px;
+    position:relative;
+    right: 2%;
+}
+.input-container {
+    text-align: center;
+}
+
+.btn-submit {
+    color: #0C0000;
+    background-color: #F7BE38;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    width: 65px;
+    margin: -4%;
+    position: relative;
+    right: 2%;
+}
+
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size:28px;
+}
+
+.list-container {
+    background-color: rgb(255,255,255);
+    width: 100%;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+    text-align: center;
+}
+
+li{
+    width: 30%;
+    border: 1px solid #828282;
+    margin-left: 32.5%;
+    text-align: start;
+    padding: 1%;
+    border-radius: 25px;
+    color : #13243E;
+    margin-top: 1%;
+    list-style-type: none;
+}
+
+.check{
+    float: right;   
+}
+.footer{
+    margin-top: 5.7%;
+    margin-bottom: 2%;
+}
+
+.btn-reset{
+    width: 13%;
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 22px;
+    border: 2px solid #F7BE38 ;
+    background-color: #F7BE38;
+}
